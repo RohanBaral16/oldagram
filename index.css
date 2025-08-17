@@ -1,5 +1,100 @@
 html, body {
+    background-color: #f7f7f7;
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+/* typography */
+p{
+    font-size: 12px;
+    margin: 0px;
+}
+.profile-name{
+    font-size: 13px;
+    font-weight: bold;
 }
 
+.like-count{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+
+.user-caption{
+    font-size: 13px;
+    margin: 0px 10px 10px 10px;
+}
+.username{
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+/* layout */
+
+/* main container */
+.container{
+    background-color: #ffffff;
+    width: 375px;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+}
+/* title bar */
+#title-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #C6C6C6 solid;
+}
+
+.post-profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55px;
+}
+
+.post-profile-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 34px;
+}
+
+.interaction-buttons{
+    height: 50px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.spacing{
+    color: #f1f1f1;
+    height: 25px;
+}
+
+
+/*images*/
+#oldagram-logo{
+    padding: 5px;
+    width: 127px;
+}
+
+.user-profile-pic{
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.interactive-icons{
+    width: 23px;
+    height: 23px;
+    margin-right: 20px;
+}
+
+.post-pic{
+    width: 375px;
+}
