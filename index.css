@@ -95,6 +95,10 @@ p{
     margin-right: 20px;
 }
 
+.interactive-icons:hover{
+    opacity: 50%;
+}
+
 .post-pic{
     width: 375px;
 }
